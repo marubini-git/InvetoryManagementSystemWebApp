@@ -13,15 +13,15 @@ A full-stack, enterprise Java EE web application built for efficient product inv
 
 ## 🛠️ Tech Stack
 
-- **Backend:** Java EE (EJB, Servlets, JPA)
-- **Frontend:** JSP, HTML5, Modern CSS3 (`main.css`)
-- **Application Server:** GlassFish Server (v3 or higher)
-- **Build System:** Apache Ant
-- **IDE:** NetBeans IDE
+- Backend: Java EE (EJB, Servlets, JPA)
+- Frontend: JSP, HTML5, Modern CSS3 (`main.css`)
+- Application Server: GlassFish Server (v3 or higher)
+- Build System: Apache Ant
+- IDE: NetBeans IDE
 
 ---
 
-## 📁 Repository Structure
+Repository Structure
 
 ```text
 InvetoryManagementSystemWebApp/
@@ -38,29 +38,28 @@ InvetoryManagementSystemWebApp/
 
 ---
 
-## ⚙️ Prerequisites & Setup
+Prerequisites & Setup
 
 1. **Java Development Kit (JDK 8+):** Installed and configured in system PATH.
 2. **GlassFish Application Server:** Installed and configured with your target database connection (JDBC Realm/Data Source).
 3. **Apache Ant:** Installed (or use NetBeans built-in Ant runner).
 
-### Building and Deployment
+Building and Deployment
 
-1. **Clone the repository:**
+1. Clone the repository:
    ```bash
    git clone https://github.com/marubini-git/InvetoryManagementSystemWebApp.git
    cd InvetoryManagementSystemWebApp
    ```
-
-2. **Build the WAR file using Ant:**
+2. Build the WAR file using Ant:
    ```bash
    ant clean compile dist
    ```
    *The generated WAR file will be placed in the `dist/` directory (`InvetoryManagementSystemWebApp.war`).*
 
-3. **Deploy to GlassFish:**
+3. Deploy to GlassFish:
    - Copy the generated `.war` file to your GlassFish `autodeploy` directory, or
    - Deploy directly via the GlassFish Administration Console (`http://localhost:4848`).
 
-4. **Access the Application:**
+4. Access the Application:
    Open your browser and navigate to `http://localhost:8080/InvetoryManagementSystemWebApp/
