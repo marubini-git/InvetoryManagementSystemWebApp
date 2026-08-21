@@ -1,7 +1,7 @@
 # InvetoryManagementSystemWebApp
 A full-stack, enterprise Java EE web application built for efficient product inventory tracking, stock adjustments, role-based access control, and financial reporting.
 
-## 🚀 Architecture & Features
+Architecture & Features
 
 - Enterprise JavaBeans (EJB 3.x): Utilizes Stateless Session Beans (`ProductFacade`) for modular and scalable business logic execution.
 - Java Persistence API (JPA): Handles object-relational mapping (ORM) for the `Product` entity with underlying database persistence.
@@ -11,7 +11,7 @@ A full-stack, enterprise Java EE web application built for efficient product inv
 
 ---
 
-## 🛠️ Tech Stack
+Tech Stack
 
 - Backend: Java EE (EJB, Servlets, JPA)
 - Frontend: JSP, HTML5, Modern CSS3 (`main.css`)
@@ -61,7 +61,7 @@ Building and Deployment
    - Copy the generated `.war` file to your GlassFish `autodeploy` directory, or
    - Deploy directly via the GlassFish Administration Console (`http://localhost:4848`).
 
-4.Security Roles:
+4. Security Roles:
    -Admin
    -username: alice_admin
    -password: admin123
