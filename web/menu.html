@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - Inventory Engine</title>
+    
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="menu.html" class="brand">Inventory Engine</a>
+            <nav>
+                <a href="EndSessionServlet.do">Logout</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="card">
+            <h2 class="card-title">Inventory Dashboard</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+                
+                <div class="card" style="margin-bottom: 0;">
+                    <h3>Clerk Controls</h3>
+                    <p style="color: var(--text-muted); margin: 0.5rem 0 1.5rem 0;">Daily operational tasks for stock maintenance.</p>
+                    <a href="GetAllProductsServlet.do" class="btn btn-secondary" style="margin-bottom: 0.5rem; width: 100%; text-align: center;">View All Products</a>
+                    <a href="update_product.jsp" class="btn btn-secondary" style="margin-bottom: 0.5rem; width: 100%; text-align: center;">Update Product Stock</a>
+                    <a href="GetLowStockCountServlet.do" class="btn btn-secondary" style="width: 100%; text-align: center;">Low Stock Report</a>
+                </div>
+
+                <div class="card" style="margin-bottom: 0; border-color: var(--accent);">
+                    <h3>Admin Management</h3>
+                    <p style="color: var(--text-muted); margin: 0.5rem 0 1.5rem 0;">Restricted administrative tasks.</p>
+                    <a href="add_product.jsp" class="btn" style="margin-bottom: 0.5rem; width: 100%; text-align: center;">Add New Product</a>
+                    <a href="InventoryValueServlet.do" class="btn" style="width: 100%; text-align: center;">Calculate Total Valuation</a>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>
