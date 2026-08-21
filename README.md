@@ -61,5 +61,14 @@ Building and Deployment
    - Copy the generated `.war` file to your GlassFish `autodeploy` directory, or
    - Deploy directly via the GlassFish Administration Console (`http://localhost:4848`).
 
-4. Access the Application:
+4.Security Roles:
+   -Admin
+   -username: alice_admin
+   -password: admin123
+
+   -Clerk
+   -username: bob_clerk
+   -password: clerk123
+
+5. Access the Application:
    Open your browser and navigate to `http://localhost:8080/InvetoryManagementSystemWebApp/
