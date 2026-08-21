@@ -62,6 +62,7 @@ Building and Deployment
    - Deploy directly via the GlassFish Administration Console (`http://localhost:4848`).
 
 4. Security Roles:
+
    -Admin
    -username: alice_admin
    -password: admin123
@@ -70,5 +71,5 @@ Building and Deployment
    -username: bob_clerk
    -password: clerk123
 
-5. Access the Application:
+6. Access the Application:
    Open your browser and navigate to `http://localhost:8080/InvetoryManagementSystemWebApp/
