@@ -18,24 +18,7 @@ Tech Stack
 - Application Server: GlassFish Server (v3 or higher)
 - Build System: Apache Ant
 - IDE: NetBeans IDE
-
----
-
-Repository Structure
-
-```text
-InvetoryManagementSystemWebApp/
-├── src/
-│   ├── conf/               # JPA Persistence configuration (persistence.xml)
-│   └── java/
-│       └── za/co/tshepo/
-│           ├── ejb/bl/     # EJB Session Beans & Interfaces
-│           ├── entity/     # JPA Product Entity & Metamodel
-│           ├── exception/  # Custom Domain Exceptions
-│           └── web/        # HttpServlets for Web Controllers
-└── web/                    # JSP pages, HTML, CSS, and WEB-INF descriptors
-```
-
+  
 ---
 
 Prerequisites & Setup
