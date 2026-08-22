@@ -3,7 +3,7 @@ A full-stack, enterprise Java EE web application built for efficient product inv
 
 Architecture & Features
 
-- Enterprise JavaBeans (EJB 3.x): Utilizes Stateless Session Beans (`ProductFacade`) for modular and scalable business logic execution.
+- Enterprise JavaBeans (EJB): Utilizes Stateless Session Beans (`ProductFacade`) for modular and scalable business logic execution.
 - Java Persistence API (JPA): Handles object-relational mapping (ORM) for the `Product` entity with underlying database persistence.
 - Container-Managed Security (Form Auth):** Secured with GlassFish role-based authentication, guarding administrative endpoints (`web.xml`).
 - Custom Exception Handling: Robust error handling using custom domain exceptions (`InvalidProductDataException`, `InsufficientStockException`, `ProductNotFoundException`).
